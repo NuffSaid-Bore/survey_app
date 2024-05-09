@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855163766086",
+    "project_id": "lifestyle-survey-a5181",
+    "storage_bucket": "lifestyle-survey-a5181.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855163766086:android:27b341c49ab71b94031147",
+        "android_client_info": {
+          "package_name": "com.example.survey_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj-VORKEC8ifjg3ygXMylKesvbdqHxm3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
