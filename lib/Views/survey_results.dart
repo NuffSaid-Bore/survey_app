@@ -24,8 +24,17 @@ class _SurveyResultsState extends State<SurveyResultsScreen> {
       child: _isLoading
           ? SizedBox(
               height: size.height * 0.70,
-              child: const Center(
-                child: CircularProgressIndicator(), // Show loading indicator
+              width: size.width * 0.60,
+              child: Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    const Text('Loading Results...'),
+                    SizedBox(width: size.width * 0.010),
+                    const CircularProgressIndicator(),
+                  ],
+                ), // Show loading indicator
               ),
             )
           : _surveyViewModel.surveyResults.isNotEmpty

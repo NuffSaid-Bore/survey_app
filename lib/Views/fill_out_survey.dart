@@ -307,7 +307,10 @@ class _SurveyPageState extends State<SurveyPage>
   }
 
   void _resetDataFields() {
-    _formKey.currentState!.reset();
+    setState(() {
+      _formKey.currentState!.reset();
+    });
+    
   }
 
   @override
